@@ -1,0 +1,14 @@
+Palu gada. Apa yang lu mau gua ada.
+
+Kelebihan monolith :
+1. Mudah didevelop
+2. Mudah dideploy
+3. Mudah ditest
+4. Mudah di scale
+
+Masalah di arsitektur monolith :
+1. Mengintimidasi Developer yang baru bergabung
+2. Scaling development dengan banyak developer adak menyulitkan
+3. Butuh kontrak panjang dengan teknologi yang digunakan (bahasa pemrograman, database, dll.)
+4. Scalling pada bagian tertentu tidak bisa dilakukan.
+5. Running app monolith sangat berat.

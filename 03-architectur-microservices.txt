@@ -1,0 +1,30 @@
+Apa itu arsitektur microservices?
+- Aplikasi-aplikasi kecil yang salaing bekerja sama.
+- Fokus mengerjakan satu pekerjaan dengan baik.
+- Independent, dapat dideploy dan diubah tanpa tergantung dengan aplikasi lain.
+- Setiap komponen pada sistem dibuat dalam services.
+- Komunikasi antar service biasanya melalui network-call.
+
+Kelebihan arsitektur microservices :
+- Mudah dimengerti karena relatif kecil ukuran servisnya
+- Mudah divelop, dimaintain, ditest dan dideploy
+- Lebih mudah bergonta ganti teknologi
+- Mudah discale sesuai kebutuhan
+- Bisa dikerjakan di dalam tim tim kecil.
+
+Masalah di microservices :
+- Distributed system.
+- Komunikasi antar service yang rawan error.
+- Testing interaksi antar service lebih sulit.
+
+Alasan dan perbedaan microservices dan monolith :
+    Monolith :
+      - Simplicity
+      - Consistency
+      - Easy to Refactor
+
+    Microservices :
+      - Partial development
+      - Availablity
+      - Multiple platform
+      - Easy to scale

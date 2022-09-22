@@ -1,0 +1,4 @@
+Kenapa harus database perservice?
+- Memastikan bahwa antar service tidak ketergantungan.
+- Tiap service bisa menggunakan database sesuai dengan kebutuhan.
+- Servicet tidak perlu tahu kompleksitas internal database service lain.
