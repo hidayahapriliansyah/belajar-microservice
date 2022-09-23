@@ -1,0 +1,17 @@
+Komunikasi antar service 
+- Idealnya dilakukan melalui RPI (Remote Procedure Invocation) atau RPC (Remote Procedure Call)
+- Tidak direkomendasikan komunikasi dilakukan via database 
+
+Contoh RPI :
+- RestFul API (HTTP)
+- gRPC 
+- Apache Thrift 
+- SOAP
+- Java RMI
+- Corba (Common Object Request Broker Architecture)
+- dll.
+
+Keuntungan menggunakan RPI :
+- Sederhana dan mudah 
+- Biasanya digunakan untuk komunikasi Request - Reply
+- Biasanya digunakan untuk proses Sync (yang butuh menunggu jawaban)

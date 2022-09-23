@@ -1,0 +1,27 @@
+sumber : https://www.youtube.com/watch?v=Pw34eg_6ve4&list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs&index=6
+
+Apa itu NoSQL?
+NoSQL bukanlah No (BUKAN/TIDAK) SQL, tapi merupakan singkatang dari Not Only SQL 
+
+Jenis-jenis NoSQL :
+- Document Oriented Database
+- Key Value Database
+- Column Families Database
+- Graph Database
+- Search Database
+- Time Series Database
+- Dll.
+
+Contoh NoSQL :
+- MongoDB : Document Oriented Database
+- Redis : Key Value Database
+- Apache Casandra : Column Families Database
+- Neo4J : Graph Database
+- ElasticSearch : Search Database
+- InfluxDB : Time Series Database
+- Dll.
+
+Kenapa butuh tahu NoSQL? 
+- Bisa menyesuaikan dengan kebutuhan
+- Bisa mencari alternatif cara untuk mengolah data 
+- Mempercepat dalam proses penulisan atau pencarian

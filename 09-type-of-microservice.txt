@@ -1,0 +1,26 @@
+Tipe microservices :
+- Stateless microservice
+- Persistence microservice
+- Aggregation microservice
+
+Stateless Microservices
+- Biasanya tidak memiliki database
+- Digunakan untuk melakukan tugas sederhana
+- Biasa digunakan juga sebagai utility untuk microservice lain
+- TIdak bergantung dengan microservice lain
+    Contoh : Email service, sms service
+
+Persistence Microservices
+- Biasanya memiliki database
+- Bisa disebut juga Master Data Microservice
+- Biasa digunakan untuk mengelola data di database (CRUD)
+    Contoh : Customer Service, Product Service, Order Service 
+
+Aggregation Microservice
+- Tergantung dengan microservice lain
+- Biasa digunakan sebagai bisnis logic aplikasi
+- Boleh memiliki database ataupun tidak 
+- Tidak bisa berdiri sendiri
+
+Contoh Aggregation Microservice : Cart Service 
+Orkestrasi bisnis logic
